@@ -26,8 +26,9 @@ quines.
 
 # How to submit a PR?
 
-Create a PR that adds a new directory to this repo that contains one file called
-`quine`. That file has to be executable (`chmod +x ./quine`) and it'll be
+Fork this repo. Then create a PR that adds a new directory to this repo that
+contains one file called `quine`. That file has to be executable
+(`chmod +x ./quine`) and it'll be
 executed without specifying an interpreter, so it should probably include
 a shebang. A shebang is a line at the beginning of your script that tells your shell
 which interpreter to run. For example, to submit a python quine, add a shebang at
