@@ -1,4 +1,8 @@
-# RC Quine Game
+# Recurse Center Quine Game
+
+This is a github-based game for people at the [Recurse
+Center](https://github.com/soenkehahn/rc-quines).
+
 
 # What are quines?
 
