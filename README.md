@@ -28,10 +28,13 @@ quines.
 
 Create a PR that adds a new directory to this repo that contains one file called
 `quine`. That file has to be executable (`chmod +x ./quine`) and it'll be
-executed without specifying an interpreter, so it should probably contain a
-[shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)).
+executed without specifying an interpreter, so its first line should probably be
+a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)). , e.g.
+`#!/usr/bin/env python`.
 [Here](https://github.com/soenkehahn/rc-quines/pull/1)'s an
-example of such a PR (that is not a quine, to avoid spoilers.)
+example of such a PR (that is not a quine, to avoid spoilers.) After submitting
+a PR check CI to see the `quine-checker` checking your PR. Here's a link:
+https://circleci.com/gh/soenkehahn/rc-quines
 
 # The quine-checker
 
