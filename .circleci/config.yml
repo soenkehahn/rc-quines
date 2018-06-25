@@ -9,4 +9,4 @@ jobs:
       - checkout
       - run:
           name: run quine-checker
-          command: quine-checker $(ls)
+          command: quine-checker $(ls -d */)
