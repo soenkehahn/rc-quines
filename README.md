@@ -19,8 +19,9 @@ quine, in a language of your choice.
 program you've submitted is actually a quine. If CI passes, you have won the
 game. (Yay!)
 
-Also, you can ping me and I will merge the PR. This way, I hope that this repo
-will become a fun collection of interesting and creative quines.
+Also, you can ping me in a github comment @soenkehahn and I will merge the PR.
+This way, I hope that this repo will become a fun collection of interesting and
+creative quines.
 
 # How to submit a PR?
 
