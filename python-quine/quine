@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import sys
+
+with open(__file__, 'r') as fh:
+    sys.stdout.write(fh.read())
+    # print(fh.read())
+
