@@ -52,7 +52,7 @@ The quine-checker is implemented
 [here](https://github.com/soenkehahn/quine-checker). You can install it to check
 your quines locally.
 
-# Cheating
+# Cheating encouraged
 
 People sometimes argue about what is a valid quine and what is not. For example,
 reading from the file system is sometimes considered to be cheating.
