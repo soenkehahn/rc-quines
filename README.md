@@ -8,8 +8,8 @@ Center](https://github.com/soenkehahn/rc-quines).
 
 Quines are programs that -- if you run them -- output a string that is equal to
 their source code. It's a fun puzzle to figure out how to write a quine, so
-I won't give any hints in this README. Also, beware of spoilers when googling
-quines.
+I won't give any hints in this README. Also, beware of spoilers when browsing
+this repo, which will contain lots of quines, or when googling quines.
 
 # The game
 
