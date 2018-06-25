@@ -8,7 +8,7 @@ Center](https://github.com/soenkehahn/rc-quines).
 
 Quines are programs that -- if you run them -- output a string that is equal to
 their source code. It's a fun puzzle to figure out how to write a quine, so
-I won't give any hints in this README. Also, beware of spoilers when browsing
+we won't give any hints in this README. Also, beware of spoilers when browsing
 this repo, which will contain lots of quines, or when googling quines.
 
 # The game
@@ -19,9 +19,9 @@ quine, in a language of your choice.
 program you've submitted is actually a quine. If CI passes, you have won the
 game. (Yay!)
 
-Also, you can ping me in a github comment
-[@soenkehahn](https://github.com/soenkehahn) and I will merge the PR. This way,
-I hope that this repo will become a fun collection of interesting and creative
+Also, you can ping us in a github comment
+[@soenkehahn](https://github.com/soenkehahn) and we will merge the PR. This way,
+we hope that this repo will become a fun collection of interesting and creative
 quines.
 
 # How to submit a PR?
