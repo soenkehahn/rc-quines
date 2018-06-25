@@ -26,7 +26,12 @@ quines.
 
 # How to submit a PR?
 
-Fork this repo. Then create a PR that adds a new directory to this repo that
+Fork this repo. Then, the workflow depends on whether you submit code for an
+interpreted language like Python or Ruby or a compiled language like C.
+
+## Interpreted languages
+
+Create a PR that adds a new directory to this repo that
 contains one file called `quine`. That file has to be executable
 (`chmod +x ./quine`) and it'll be
 executed without specifying an interpreter, so it should probably include
@@ -42,6 +47,16 @@ the beginning like so:
 
 [Here](https://github.com/soenkehahn/rc-quines/pull/1)'s an
 example of such a PR (that is not a quine, to avoid spoilers.)
+
+## Compiled languages
+
+Create a PR that adds a new directory to this repo that
+contains one file called `quine.ext`, where `ext` is the appropriate 
+file extension for the language you're submitting. See [the supported
+languages](#supported-languages).
+
+
+## Checking results
 
 After submitting
 a PR, you can monitor CI to see the `quine-checker` checking your PR. Here's a link:
@@ -68,12 +83,18 @@ look forward to receiving PRs like that.
 
 # Supported languages
 
-Currently the only supported languages are:
+Currently the supported interpreted languages are:
 
 - bash
 - python
 - javascript (through `node`)
 - haskell (through ghc's `runhaskell`)
+- ruby
+- R (via `Rscript`)
+
+and the supported compiled languages are:
+
+- C , must use `.c` extension (via `gcc`)
 
 We will add more languages quickly depending on interest. If your favourite
 language is not yet supported, feel free still to create a PR. We will try
