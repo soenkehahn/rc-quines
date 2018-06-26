@@ -66,7 +66,7 @@ https://circleci.com/gh/soenkehahn/rc-quines
 
 The quine-checker is implemented
 [here](https://github.com/soenkehahn/quine-checker). You can install it to check
-your quines locally.
+your quines locally. But you don't have to use it, you can also just rely on CI.
 
 # Cheating encouraged
 
