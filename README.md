@@ -6,8 +6,8 @@ Center](https://github.com/soenkehahn/rc-quines).
 
 # What are quines?
 
-Quines are programs that -- if you run them -- output a string that is equal to
-their source code. It's a fun puzzle to figure out how to write a quine, so
+**Quines are programs that -- if you run them -- output a string that is equal to
+their source code.** It's a fun puzzle to figure out how to write a quine, so
 we won't give any hints in this README. Also, beware of spoilers when browsing
 this repo, which will contain lots of quines, or when googling quines.
 
