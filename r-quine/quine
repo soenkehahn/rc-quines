@@ -3,5 +3,5 @@
     t <- function(x) trimws(x, which = "right")
     cat("#! /usr/bin/env Rscript\n")
     cat("(", paste(t(deparse(call("function", NULL, body()))),
-        collapse = "\n"), ")()", sep = "")
+        collapse = "\n"), ")()\n", sep = "")
 })()
