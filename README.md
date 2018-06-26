@@ -51,7 +51,7 @@ example of such a PR (that is not a quine, to avoid spoilers.)
 ## Compiled languages
 
 Create a PR that adds a new directory to this repo that
-contains one file called `quine.ext`, where `ext` is the appropriate 
+contains one file called `quine.ext`, where `ext` is the appropriate
 file extension for the language you're submitting. See [the supported
 languages](#supported-languages).
 
@@ -95,6 +95,8 @@ Currently the supported interpreted languages are:
 and the supported compiled languages are:
 
 - C , must use `.c` extension (via `gcc`)
+- rust , must use `.rs` extension (via `rustc`)
+- go , must use `.go` extension (via `go build`)
 
 We will add more languages quickly depending on interest. If your favourite
 language is not yet supported, feel free still to create a PR. We will try
