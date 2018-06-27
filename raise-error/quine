@@ -1,4 +1,4 @@
-  File "quine", line 1
     File "quine", line 1
-    ^
+        File "quine", line 1
+        ^
 IndentationError: unexpected indent
