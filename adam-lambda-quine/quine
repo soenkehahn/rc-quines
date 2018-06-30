@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+
+(x => (() => console.log("(x => (() => console.log())(x(x)))"))(x(x)))(x => (() => console.log("(x => (() => console.log())(x(x)))"))(x(x)))
+
+
+// ((x => eval("console.log(" + x.toString() + "(" + x.toString() + "))"))(x => eval("console.log(" + x.toString() + "(" + x.toString() + "))")))
+
+
+// (x => eval("console.log(\"#!/usr/bin/env node\\n\\n" + x.toString() + "(" + x.toString() + ")\")"))(x => eval("console.log(\"#!/usr/bin/env node\\n\\n" + x.toString() + "(" + x.toString() + ")\")"))
+
+
+
