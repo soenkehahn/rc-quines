@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+(x => console.log(x(x)))(x => "#!/usr/bin/env node\n\n(x => console.log(x(x)))(" + x.toString() + ")")
