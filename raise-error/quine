@@ -1,5 +1,1 @@
-#!/usr/bin/env python
-    File "quine", line 1
-        File "quine", line 1
-        ^
-IndentationError: unexpected indent
+quine: line 1: quine:: command not found
