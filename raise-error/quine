@@ -1,1 +1,1 @@
-quine: line 1: quine:: command not found
+quine: line 1: raise-error/quine:: command not found
