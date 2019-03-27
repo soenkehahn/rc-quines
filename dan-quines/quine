@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+(dan = () => { console.log(`#! /usr/bin/env node
+(dan = ` + dan.toString() + ')()');
+})()
