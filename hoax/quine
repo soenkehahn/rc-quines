@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+print("Tada!")
+with open(__file__, 'w') as me:
+    me.write("Tada!\n")
