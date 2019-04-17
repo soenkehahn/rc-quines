@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+(i=j=>console.log(`#!/usr/bin/env node\n(i=${i})()`))()
